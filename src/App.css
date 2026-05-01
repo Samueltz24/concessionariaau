@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Faster+One&family=Kaushan+Script&family=Oi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+:root{
+    --letra: "Kaushan Script", cursive;
+    --letra1: "DynaPuff", system-ui;
+    --letra2 :"Chewy", system-ui;
+    --letra3: "Black Ops One", system-ui ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*começo da nav */
+nav{
+    background: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+#nav{
+    display: flex;
+    margin: 0 5%;
+    flex-wrap: wrap;
+}
+.h210{
+    font-family: var(--letra);
+}
+h2{
+    font-size: 15px;
+    font-family: var(--letra2);
+    
+}
+.separa1{
+    flex: 71%;
+}
+.separa{
+    flex: 8%;
+}
+#heard{
+    display: flex;
+    margin: 0 3%;
+    flex-wrap: wrap;
+    padding-top: 180px;
+    padding-bottom: 15px;
+}
+.margi{
+    margin: 0 10%;
+}
+.distancia{
+    margin: 5px 0;
+    flex: 100%;
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 5%;
+    font-family: var(--letra1);
+}
+p{
+    margin: 0 10%;
+    color: #fff;
+    font-family: var(--letra3);
+}
+header{
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.redondo{
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 5px 1%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+.quadrado1{
+    flex: 70%;
+}
+.quadrado{
+    flex: 20%;
+}
+.buton{
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.butonaz1{
+    padding: 16px;
+    width: 87%;
+    border-radius: 30px;
+}
+.butonaz{
+    background: blue;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.redondo1{
+    border: 1px solid #000;
+    background: #fff;
+    padding: 10px 1%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    flex: 40%;
+    margin-left: 10px;
+}
+#entrar{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 5%;
+    width: 90%;
+}
+.color{
+    color: blue;
+    font-size: 18px;
+    font-family: var(--letra1);
+}
+.bo{
+    flex: 10%;
+}
+.letra{
+    flex: 87%;
+}
+/*final da nav*/
+/*começo do banes*/
+#bane{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 5%;
+}
+.banes{
+    margin: 10px 0;
+}
+.imagem{
+    width: 100%;
+    border-radius: 15px;
+}
+/*final do banes*/
+#zap{
+    display: flex;
+    justify-content: flex-end; 
+}
+#zap1{
+    margin-right: 15px;
+    position: fixed;
+    bottom: 0;
+}
+/*começo do cards carros*/
+.p{
+    color: #000;
+}
+.cardp{
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cor1{
+   display: flex;
+   flex-wrap: wrap;
+}
+.ma{
+    flex: 100%;
+    margin: 4%;
+}
+.cor{
+    color: #000;
+    margin: 0;
+}
+.img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.cardfi{
+    flex: 100%;
+    margin-left: 3%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.azul{
+    color: blue;
+    font-size: 15px;
+}
+.h2{
+    margin: 5%;
+    font-size: 22px;
+}
+footer{
+  background: blue;
+  color: #000;
+  padding: 15px 0;
+}
+.h23{
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--letra1);
+}
+#food{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+#f1{
+    flex: 60%;
+}
+#f2{
+    flex: 20%;
+}
+.glider {
+  display: flex;
+}
+
+.glider-contain {
+  width: 100%;
+}
+.glider > * {
+  min-width: 0;
+}
+#buu1{
+    border: 1px solid #000;
+    background: #000;
+    border-radius: 10px;
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#buu2{
+    border: 1px solid #000;
+    background: #000;
+    border-radius: 10px;
+    width: 50px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+/*começo do negocio*/
+.h21{
+    font-size: 20px;
+    margin: 5%;
+}
+.p1{
+    color: #584747;
+    margin: 0;
+    font-family: var(--letra1);
+}
+.cardpri{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.cardfilho{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+}
+.cardfilho1{
+    margin: 15px 0;
+    flex: 100%;
+}
+#sinza{
+    background: #ecdbdb;
+    padding: 10px 0;
+}
+#branco{
+    padding: 20px 0;
+}
+#vendas{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.ven1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+    width: 55%;
+    padding: 2px 5px;
+    border-radius: 30px;
+}
+.redon{
+    flex: 40%;
+    padding: 5px 0;
+    border-radius: 30px;
+}
+.butao{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 30px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.verde{
+    background: blue;
+}
+.h2ta{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.ven{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 20px 0;
+    display: none;
+}
+.junto{
+    flex: 40%;
+}
+.carr{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    padding: 20px 0;
+}
+.numero{
+    flex: 10%;
+}
+.letra1{
+    flex: 70%;
+}
+.te{
+    display: block;
+    display: flex;
+}
+h4{
+    font-family: var(--letra);
+}
+@media (min-width: 1024px){
+    .banes{
+        flex: 30%;
+        margin-left: 2%;
+        margin-top: 30px;
+    }
+    .cardfilho{
+        flex: 20%;
+    }
+    .cardfilho1{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .h21{
+        font-size: 30px;
+    }
+    .h23{
+        font-size: 30px;
+    }
+    .carr1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carr{
+        flex: 10%;
+    }
+    .te{
+        display: none;
+    }
+    .ven{
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .te{
+        display: none;
+    }
+    .junto{
+        flex: 40%;
+    }
+    #heard{
+        margin: 0 20%;
+        padding-bottom: 25px;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    #unico{
+        font-size: 20px;
+        text-align: center;
+    }
+}
